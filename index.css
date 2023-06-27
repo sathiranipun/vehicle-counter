@@ -1,0 +1,74 @@
+body {
+    background-image: url("vehicle.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(52, 50, 50, 0.588);
+    max-width: 60%;
+    margin: auto;
+    margin-top: 20vh;
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.796);
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.796);
+}
+
+p{
+    color: rgba(255, 255, 255, 0.796);
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: #0042dc;
+}
+
+#increment-btn:hover{
+    background: #2361f4;
+}
+
+#save-btn {
+    background: #01a94f;
+}
+
+#save-btn:hover {
+    background: #02dc68;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+.Previous-counter{
+    background-color: rgba(13, 13, 13, 0.612);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 25vh;
+}
+
